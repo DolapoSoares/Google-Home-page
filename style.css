@@ -1,0 +1,78 @@
+.nav{
+  display: flex;
+  align-items:stretch;
+  justify-content: flex-end;
+  margin-right: 30px;
+  margin-top: 14px;
+}
+a{
+  padding: 6px;
+  margin: 5px;
+  color: black;
+  text-decoration: none;
+}
+button{
+  padding: 0px 20px 0px 20px;
+  margin-left: 20px;
+  background-color:rgb(10, 87, 230);
+  color: azure;
+  border-radius: 8%;
+}
+.main {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.vs-icon{
+  position: relative;
+  max-width: 2.5%;
+  height: auto;
+  right: 8%;
+  top: 8px;
+}
+.Search-icon{
+  position: relative;
+  max-width: 4%;
+  height: auto;
+  right:-60px;
+  top: 10px
+}
+.logo{
+  max-width: 2%;
+  height:1%;
+  margin-top: 10px;
+
+}
+input[type="text"] {
+  width: 500px;
+  padding: 10px;
+  margin: 20px;
+  border: 1px;
+  border-style:solid;
+  border-color: rgb(207, 199, 199);
+  border-radius:25px;
+  padding-left: 40px;
+}
+
+
+input[type="submit"] {
+  margin-right: 20px;
+  opacity: 0.5;
+  border: none;
+  cursor: pointer;
+  padding: 10px 24px;
+  border-radius: 3px;
+}
+.btn-btn{
+  background-color: rgb(201, 202, 202);
+  color: black;
+}
+.language{
+  margin-top: 7%;
+}
+
+.language a{
+  color:rgb(10, 87, 230);
+}
